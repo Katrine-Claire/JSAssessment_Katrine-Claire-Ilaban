@@ -18,8 +18,10 @@ function mintNFT (_name, _eyeColor, _shirtType, _bling) {
     const NFT = {
       "name": _name,
       "eyeColor": _eyeColor,
+      "hairColor": _hairColor,
       "shirtType": _shirtType,
-      "bling": _bling
+      "bling": _bling,
+      "accessories": _accessories,
     }
     NFTs.push(NFT);
     console.log("Minted: " + _name);
@@ -39,6 +41,6 @@ console.log(NFTs.length);
 }
 
 // call your functions below this line
-mintNFT("Gojo Satoru", "Blue", "Hoodie", "Gold Chain");
+mintNFT("Gojo Satoru", "Blue", "White", "suit", "Gold Chain", "Sunglasses");
 listNFTs();
 getTotalSupply();
