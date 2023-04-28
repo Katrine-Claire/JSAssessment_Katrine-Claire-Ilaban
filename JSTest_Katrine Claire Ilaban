@@ -42,5 +42,7 @@ console.log(NFTs.length);
 
 // call your functions below this line
 mintNFT("Gojo Satoru", "Blue", "White", "suit", "Gold Chain", "Sunglasses");
+mintNFT("Nanami Kento", "Black", "Blond", "suit", "none", "Watch");
+mintNFT("Toji Fushiguro", "Green", "Black", "suit", "Gold Piercings", "Silver Ring");
 listNFTs();
 getTotalSupply();
